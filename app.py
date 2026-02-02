@@ -93,7 +93,7 @@ if st.button("Predict Marks"):
     # Ensure marks don't exceed 100 or drop below 0 (Optional logic)
     predicted_marks = max(0, min(100, predicted_marks))
     
-    st.success(f"📊 Predicted Marks: {predicted_marks:.2f}")
+    st.success(f"📊 Predicted Marks: {predicted_marks:.2f}/100")
 
 # ----------------------------
 # Optional: Show regression line
